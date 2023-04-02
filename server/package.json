@@ -3,12 +3,13 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
+  "proxy":"https://website-server-tc9l.onrender.com",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
     "lint": "npx eslint website-project/server/*",
     "test": "mocha website-project/tests/*.spec.js --color",
-    "start": "node index.js",
+    "start": "node server/index.js",
     "start-client": "cd .. && cd website-react && npm start"
   },
   "repository": {
