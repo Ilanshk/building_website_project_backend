@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-const cors = require("cors");
+
 const port = process.env.PORT || 5000;
 const app = express();
 app.use(express.json());
