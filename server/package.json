@@ -9,7 +9,7 @@
     "dev": "nodemon index.js",
     "lint": "npx eslint website-project/server/*",
     "test": "mocha website-project/tests/*.spec.js --color",
-    "start": "node server/index.js",
+    "start": "node index.js",
     "start-client": "cd .. && cd website-react && npm start"
   },
   "repository": {
