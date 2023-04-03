@@ -3,7 +3,6 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "proxy":"https://website-server-tc9l.onrender.com",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
